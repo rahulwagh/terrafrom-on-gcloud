@@ -10,7 +10,7 @@ terraform {
 provider "google" {
   credentials = file("/Users/rahulwagh/.gcp/credentials.json")
   project     = var.project_id
-  region  = "e0urope-west4"
+  region  = "europe-west4"
   zone    = "europe-west4-a"
 }
 
